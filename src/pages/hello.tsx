@@ -1,8 +1,7 @@
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
 
-export default function Home() {
+export default function Hello() {
   return (
     <>
       <Head>
@@ -13,8 +12,7 @@ export default function Home() {
       </Head>
       <main>
         hello
-        <button className="button">Hello Button</button>
-        <Link href="/hello">Hello</Link>
+        <Link href="/">Main Page</Link>
       </main>
     </>
   );
